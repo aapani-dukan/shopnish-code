@@ -1,0 +1,16 @@
+
+// client/tsconfig.json
+{
+  "compilerOptions": {
+    // ... आपके मौजूदा विकल्प ...
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@shared/*": ["../shared/*"] // <-- इसे जोड़ें
+    }
+    // ...
+  },
+  "include": ["src"],
+  
+}
+
